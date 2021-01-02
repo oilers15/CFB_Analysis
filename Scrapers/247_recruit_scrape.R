@@ -9,7 +9,7 @@ library(stringr) # For string processing
 
 base_url <- "http://www.247sports.com/Season/%i-Football/CompositeTeamRankings"
 
-year_list <- seq(from = 2005, to = 2016, by = 1)
+year_list <- seq(from = 2005, to = 2020, by = 1)
 conf_list <- c("ACC", "Big-12", "AAC", "Big-Ten", "C-USA", "IND", "MAC", "M-West", "Pac-12", "SEC", "SBC")
 
 # initialize the matrix to append teams to
